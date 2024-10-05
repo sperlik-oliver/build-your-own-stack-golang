@@ -1,0 +1,14 @@
+{
+    "port": 3000,
+    "upstreams": [
+        {
+            "URL": "http://localhost:5001"
+        },
+        {
+            "URL": "http://localhost:5002"
+        }
+    ],
+    "healthcheckIntervalSeconds": 1,
+    "retryIntervalSeconds": 1,
+    "mode": "leastconnections"
+}
